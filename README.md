@@ -14,7 +14,7 @@ npm install styledwindcss
 
 ## usage
 
-
+```
 import React from 'react';
 import tw from 'styledwindcss'
 import styled from '@emotion/styled';
@@ -34,7 +34,7 @@ bg-transparent rounded border-solid
     }
   `}
 `;
-
+```
 ## Explanation
 
 Note that tw and styled.input are both functions and both are called with a tagged template literal with interpolations. It is just that styled.input is called inside an interpolation of the tagged template literal passed to tw. Use of && or &&& is necessary to prevent tailwindcss from overwriting the styled-components styles. The above example assumes that a theme was created using the ThemeProvider from @emotion/react.
