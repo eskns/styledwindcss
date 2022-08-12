@@ -1,7 +1,7 @@
 # styledwindcss
 Enables the use of any version of tailwindcss with any version of @emotion/styled
 
-The inspiration for this project came from twin.macro. Unlike their approach, this package allows you to use the latest version of tailwindcss with the latest version of @emotion/styled without any waiting time. In fact, you need to install (whatever versions of) those packages independently in addition to styledwindcss.
+The inspiration for this project came from twin.macro. Unlike their approach, this package allows you to use the latest version of tailwindcss with the latest version of @emotion/styled *without any waiting time*. In fact, you need to install (whatever versions of) those packages independently in addition to styledwindcss.
 
 ## install
 npm install tailwindcss
@@ -39,4 +39,4 @@ bg-transparent rounded border-solid
 
 Note that tw and styled.input are both functions and both are called with a tagged template literal with interpolations. It is just that styled.input is called inside an interpolation of the tagged template literal passed to tw. Use of && or &&& is necessary to prevent tailwindcss from overwriting the styled-components styles. The above example assumes that a theme was created using the ThemeProvider from @emotion/react.
 
-
+You first pass all the tailwindcss utility classes to tw and then pass an interpolation (the stuff in ${...}). Inside that interpolation you can call any styled-component and pass it another tagged template literal with interpolations.
