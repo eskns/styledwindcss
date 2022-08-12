@@ -5,7 +5,10 @@ The inspiration for this project came from twin.macro. Unlike their approach, th
 
 ## install
 npm install tailwindcss
+
 npm install @emotion/react
+
 npm install @emotion/styled
+
 npm install styledwindcss
 
