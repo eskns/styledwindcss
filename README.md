@@ -40,3 +40,5 @@ bg-transparent rounded border-solid
 Note that tw and styled.input are both functions and both are called with a tagged template literal with interpolations. It is just that styled.input is called inside an interpolation of the tagged template literal passed to tw. Use of && or &&& is necessary to prevent tailwindcss from overwriting the styled-components styles. The above example assumes that a theme was created using the ThemeProvider from @emotion/react.
 
 You first pass all the tailwindcss utility classes to tw and then pass an interpolation (the stuff in ${...}). Inside that interpolation you can call any styled-component and pass it another tagged template literal with interpolations.
+
+More details at [EKS, LLC website](https://eskns.com/styledwindcss)
