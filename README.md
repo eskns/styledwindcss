@@ -1,7 +1,7 @@
 # styledwindcss
 Enables the use of any version of tailwindcss with any version of @emotion/styled
 
-The inspiration for this project came from twin.macro. Unlike their approach, this package allows you to use the latest version of tailwindcss with the latest version of @emotion/styled ==without any waiting time==. In fact, you need to install (whatever versions of) those packages independently in addition to styledwindcss.
+The inspiration for this project came from twin.macro. Unlike their approach, this package allows you to use the latest version of tailwindcss with the latest version of @emotion/styled **<u>without any waiting time</u>**. In fact, you need to install (whatever versions of) those packages independently in addition to styledwindcss.
 
 ## install
 npm install tailwindcss
