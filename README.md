@@ -41,4 +41,3 @@ Note that tw and styled.input are both functions and both are called with a tagg
 
 You first pass all the tailwindcss utility classes to tw and then pass an interpolation (the stuff in ${...}). Inside that interpolation you can call any styled-component and pass it another tagged template literal with interpolations.
 
-More details at [EKS, LLC](https://eskns.com/styledwindcss) website.
