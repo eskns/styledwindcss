@@ -1,7 +1,7 @@
 {
-  "name": "styledwindcss",
+  "name": "@eskns/styledwindcss",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use any version of tailwindcss with any version of styled-components",
   "main": "index.js",
   "homepage": "https://github.com/eskns/styledwindcss",
   "repository": {
@@ -17,6 +17,12 @@
     "@emotion",
     "reactjs"
   ],
-  "author": "EKS, LLC",
+  "author": {
+    "name": "herbi.n.ginger",
+    "email": "herbi.n.ginger@gmail.com",
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/eskns"
+  }
   "license": "BSD 3-Clause \"New\" or \"Revised\"" 
 }
