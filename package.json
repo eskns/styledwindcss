@@ -19,10 +19,10 @@
   ],
   "author": {
     "name": "herbi.n.ginger",
-    "email": "herbi.n.ginger@gmail.com",
+    "email": "herbi.n.ginger@gmail.com"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/eskns"
-  }
+  },
   "license": "BSD 3-Clause \"New\" or \"Revised\"" 
 }
