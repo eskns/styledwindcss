@@ -1,12 +1,12 @@
 {
   "name": "@eskns/styledwindcss",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Use any version of tailwindcss with any version of styled-components",
   "main": "index.js",
   "homepage": "https://github.com/eskns/styledwindcss",
   "repository": {
-        "type": "git",
-        "url": "git+https://github.com/eskns/styledwindcss.git"
+    "type": "git",
+    "url": "git+https://github.com/eskns/styledwindcss.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,12 +17,15 @@
     "@emotion",
     "reactjs"
   ],
-  "author": {
-    "name": "herbi.n.ginger",
-    "email": "herbi.n.ginger@gmail.com"
+  "author": "herbi.n.ginger <herbi.n.ginger@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eskns/styledwindcss/issues"
   },
-  "publishConfig": {
+    "publishConfig": {
     "registry": "https://npm.pkg.github.com/eskns"
   },
-  "license": "BSD 3-Clause \"New\" or \"Revised\"" 
+  "dependencies": {
+    "@eskns/styledwindcss": "file:"
+  }
 }
