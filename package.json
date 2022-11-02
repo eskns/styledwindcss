@@ -23,7 +23,7 @@
     "url": "https://github.com/eskns/styledwindcss/issues"
   },
     "publishConfig": {
-    "@rbinge:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "@eskns/styledwindcss": "file:"
