@@ -27,5 +27,10 @@
   },
   "dependencies": {
     "@eskns/styledwindcss": "file:"
+  },
+  "peerDependencies": {
+    "@emotion/styled": "11.x",
+    "@tailwindcss/typography": "0.x",
+    "tailwindcss": "3.x"
   }
 }
