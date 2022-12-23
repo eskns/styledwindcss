@@ -1,7 +1,7 @@
 # styledwindcss
-Enables the use of any version of tailwindcss with any version of @emotion/styled
+Simpler code. No overhead after building with webpack or esbuild.
 
-The inspiration for this project came from twin.macro. Unlike their approach, this package allows you to use the latest version of tailwindcss with the latest version of @emotion/styled **without any waiting time**. In fact, you need to install (whatever versions of) those packages independently in addition to styledwindcss.
+The inspiration for this project came from [twin.macro](https://github.com/ben-rogerson/twin.macro). You can use any version of tailwindcss with any version of @emotion/styled. You need to install (whatever versions of) those packages independently in addition to styledwindcss. Our code is way simpler. We have one file index.js and it has 4 lines of code and it allows you to do the samething as twin.macro. Both approaches use tagged templates with interpolation twice. Twin.macro uses styled-components for the outer interpolation and tailwindcss for the inner interpolation. **We do the opposite and use tailwindcss for the outer interpolation and styled-components for the inner interpolation.**  
 
 ## install
 npm install tailwindcss
@@ -10,13 +10,15 @@ npm install @emotion/react
 
 npm install @emotion/styled
 
-npm install styledwindcss
+npm install @eskns/styledwindcss
 
 ## usage
 
+If you are a new user wanting to use tailwindcss with styled-components, then our approach is ideal for you. If you want to switch over from twin.macro then you have to manually change the order of tw and styled-components function calls.
+
 ```
 import React from 'react';
-import tw from 'styledwindcss'
+import tw from '@eskns/styledwindcss'
 import styled from '@emotion/styled';
 
 const ItemInput = tw`m-0 p-0 h-6 w-fit self-center justify-self-center text-center \
