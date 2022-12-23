@@ -1,7 +1,7 @@
 # styledwindcss
 Enables the use of any version of tailwindcss with any version of @emotion/styled
 
-The inspiration for this project came from twin.macro. Unlike their approach, this package allows you to use the latest version of tailwindcss with the latest version of @emotion/styled **without any waiting time**. In fact, you need to install (whatever versions of) those packages independently in addition to styledwindcss.
+The inspiration for this project came from twin.macro. You can use any version of tailwindcss with any version of @emotion/styled. You need to install (whatever versions of) those packages independently in addition to styledwindcss. Our code is way simpler. We have one file index.js and it has 4 lines of code and it allows you to do the samething as twin.macro. Both approaches use tagged templates with interpolation twice. They use styled-components in the outer interpolation and tailwindcss in the inner interpolation. **We do the opposite and use tailwindcss in the outer interpolation and styled-components in the inner interpolation.**  
 
 ## install
 npm install tailwindcss
@@ -10,13 +10,15 @@ npm install @emotion/react
 
 npm install @emotion/styled
 
-npm install styledwindcss
+npm install @eskns/styledwindcss
 
 ## usage
 
+If you are a new user wanting to use tailwindcss with styled-components, then ou
+
 ```
 import React from 'react';
-import tw from 'styledwindcss'
+import tw from '@eskns/styledwindcss'
 import styled from '@emotion/styled';
 
 const ItemInput = tw`m-0 p-0 h-6 w-fit self-center justify-self-center text-center \
