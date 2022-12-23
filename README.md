@@ -1,7 +1,7 @@
 # styledwindcss
 Enables the use of any version of tailwindcss with any version of @emotion/styled
 
-The inspiration for this project came from twin.macro. You can use any version of tailwindcss with any version of @emotion/styled. You need to install (whatever versions of) those packages independently in addition to styledwindcss. Our code is way simpler. We have one file index.js and it has 4 lines of code and it allows you to do the samething as twin.macro. Both approaches use tagged templates with interpolation twice. They use styled-components in the outer interpolation and tailwindcss in the inner interpolation. **We do the opposite and use tailwindcss in the outer interpolation and styled-components in the inner interpolation.**  
+The inspiration for this project came from twin.macro. You can use any version of tailwindcss with any version of @emotion/styled. You need to install (whatever versions of) those packages independently in addition to styledwindcss. Our code is way simpler. We have one file index.js and it has 4 lines of code and it allows you to do the samething as twin.macro. Both approaches use tagged templates with interpolation twice. Twin.macro uses styled-components in the outer interpolation and tailwindcss in the inner interpolation. **We do the opposite and use tailwindcss in the outer interpolation and styled-components in the inner interpolation.**  
 
 ## install
 npm install tailwindcss
