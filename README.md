@@ -14,7 +14,7 @@ npm install @eskns/styledwindcss
 
 ## usage
 
-If you are a new user wanting to use tailwindcss with styled-components, then ou
+If you are a new user wanting to use tailwindcss with styled-components, then our approach is ideal for you. If you want to switch over from twin.macro then you have to manually change the order of tw and styled-components function calls.
 
 ```
 import React from 'react';
