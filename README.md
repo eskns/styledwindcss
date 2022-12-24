@@ -10,8 +10,8 @@ npm install @emotion/react
 
 npm install @emotion/styled
 
-NOTE: The following package will be installed from npm.pkg.github.com. So, there should not be a leading @ while installing. However, it will be installed in
-node_modules/@eskns/styledwindcss. So, while importing it you should use a leading @. Please see below. Also note that in order to install packages from npm.pkg.github.com you need to create a github account and create a read-only [access token (classic)](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages#authenticating-to-github-packages) and store that access token in your .npmrc file.
+NOTE: The following github package will be installed from npm.pkg.github.com. So, there should not be a leading @ while installing. However, it will be installed in
+node_modules/@eskns/styledwindcss. So, while importing it you should use a leading @. Please see below. Also note that in order to install github packages from npm.pkg.github.com you need to create a github account and create a read-only [access token (classic)](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages#authenticating-to-github-packages) and store that access token in your .npmrc file.
 
 npm install eskns/styledwindcss
 
