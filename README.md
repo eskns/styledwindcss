@@ -10,7 +10,10 @@ npm install @emotion/react
 
 npm install @emotion/styled
 
-npm install @eskns/styledwindcss
+NOTE: The following package will be installed from npm.pkg.github.com. So, there should not be a leading @ while installing. However, it will be installed in
+node_modules/@eskns/styledwindcss. So, while importing it you should use a leading @. Please see below.
+
+npm install eskns/styledwindcss
 
 ## usage
 
